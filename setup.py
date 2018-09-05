@@ -2,7 +2,7 @@ from setuptools import setup
 
 with open('README.rst', 'r') as f:
     long_desc = f.read()
-
+    
 setup(
     name='sfc_models',
     packages=['sfc_models', 'sfc_models.gl_book', 'sfc_models.examples'],  # 'sfc_models.examples.scripts'],
